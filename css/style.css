@@ -1,0 +1,129 @@
+
+/* ---------- Overall Specifications ---------- */
+
+body {
+  line-height: 1.5;
+  font-size: 87.5%;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #666;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.0em 0 0.5em;
+}
+h1 {
+  font-size: 1.357em;
+  color: #000;
+}
+h2 {
+  font-size: 1.143em;
+}
+p {
+  margin: 0 0 1.2em;
+}
+del {
+  text-decoration: line-through;
+}
+tr.odd {
+  background-color: #dddddd;
+}
+img {
+  outline: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#navigation {
+  background-color: #eee;
+}
+ul.menu li {
+  margin: 0;
+}
+
+#main-menu-links {
+  font-size: 0.929em;
+  margin: 0;
+  padding: 0 15px;
+}
+#main-menu-links li {
+  float: left; /* LTR */
+  list-style: none;
+  padding: 0 1px;
+  margin: 0 1px;
+}
+#main-menu-links a {
+  color: #333;
+  float: left; /* LTR */
+  height: 2.4em;
+  line-height: 2.4em;
+  padding: 0 0.8em;
+  text-decoration: none;
+}
+#main-menu-links a:hover,
+#main-menu-links a:focus {
+
+}
+#main-menu-links a:active {
+
+}
+
+#main .content {
+  float: left;
+  width: 710px;
+}
+#main .sider {
+  float: left;
+  width: 250px;
+  background-color: #eee;
+}
+.inner {
+  padding: 10px;
+}
+
+#footer {
+  height: 85px;
+  line-height: 85px;
+  text-align: center;
+  background: url("../images/fbg.png") repeat;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #666;
+}
+td {
+  padding: 2px 5px;
+  vertical-align: top;
+}
+
+p {
+  text-indent: 2em;
+}
+
+.highlight {
+  color: #571819;
+  font-weight: bold;
+}
