@@ -97,6 +97,7 @@ ul.menu li {
   float: left;
   width: 250px;
   background-color: #eee;
+  position: relative;
 }
 .inner {
   padding: 10px;
@@ -126,4 +127,11 @@ p {
 .highlight {
   color: #571819;
   font-weight: bold;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  width: 230px;
+  background-color: #eee;
 }

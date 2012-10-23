@@ -6,6 +6,19 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > "235") {
+          $('#main .sider .inner').addClass('fixed');
+        }
+        else {
+          $('#main .sider .inner').removeClass('fixed');
+        }
+      });
+    });
+  </script>
 </head>
 <body>
   <div id="page-wrapper">
@@ -70,47 +83,43 @@
                   <td colspan="3">中/英文双语</td>
                 </tr>
                 <tr>
-                  <td>12:30-13:30</td>
-                  <td colspan="3">嘉宾和参会者签到</td>
+                  <td><span class="highlight">12:30-13:30</span></td>
+                  <td colspan="3"><span class="highlight">嘉宾和参会者签到</span></td>
                 </tr>
                 <tr>
-                  <td>13:30-13:40</td>
+                  <td><span class="highlight">13:30-13:40</span></td>
                   <td colspan="3"><span class="highlight">开幕致辞 </span><br />石武太 先生， CEO， 迪原创新（北京）科技有限公司</td>
                 </tr>
                 <tr>
-                  <td>13:40-14:40</td>
+                  <td><span class="highlight">13:40-14:40</span></td>
                   <td colspan="3"><span class="highlight">主题演讲:  开源云计算 </span><br />梁胜博士，CTO，美国Citrix公司；cloud.com 创始人; cloudstack 奠基人</td>
                 </tr>
                 <tr>
-                  <td>14:40-15:10</td>
+                  <td><span class="highlight">14:40-15:30</span></td>
                   <td colspan="3"><span class="highlight">让管理云计算变得更简单 – 从思杰视角看 cloudstack</span><br />秦小康 先生， 云计算平台总监， Citrix大中国区</td>
                 </tr>
                 <tr>
-                  <td>15:10-15:20</td>
+                  <td>15:30-15:40</td>
                   <td colspan="3">茶歇</td>
                 </tr>
                 <tr>
-                  <td>15:20-15:50</td>
+                  <td><span class="highlight">15:40-16:20</span></td>
                   <td colspan="3"><span class="highlight">cloudstack介绍：体系结构，部署和管理</span><br />堀田直孝 先生， 资深云计算咨询顾问， Creationline  Inc.</td>
                 </tr>
                 <tr>
-                  <td>15:50-16:20</td>
+                  <td><span class="highlight">16:20-17:00</span></td>
                   <td colspan="3"><span class="highlight">虚拟化和cloudstack 在企业中的应用部署实践</span><br />刘相均 先生，资深云计算咨询顾问，迪原创新（北京）科技有限公司</td>
                 </tr>
                 <tr>
-                  <td>16:20-16:50</td>
-                  <td colspan="3"><span class="highlight">cloudstack中国社区的发展和展望</span><br />李学辉 先生，cloudstack中国社区创办人</td>
-                </tr>
-                <tr>
-                  <td>16:50-17:30</td>
+                  <td><span class="highlight">17:00-17:40</span></td>
                   <td colspan="3"><span class="highlight">cloudstack应用部署案例研究与分享 – 中国电信</span><br />杨经纬 先生，资深技术专家，中国电信</td>
                 </tr>
                 <tr>
-                  <td>17:30-17:50</td>
-                  <td colspan="3">结束 (Q & A)</td>
+                  <td><span class="highlight">17:40-18:00</span></td>
+                  <td colspan="3"><span class="highlight">结束 (Q & A)</span></td>
                 </tr>
                 <tr>
-                  <td>17:50-18:30</td>
+                  <td>18:00-18:30</td>
                   <td colspan="3">会后交流时间</td>
                 </tr>
               </table>
