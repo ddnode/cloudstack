@@ -9,6 +9,7 @@ body {
   padding: 0;
   border: 0;
   outline: 0;
+  font-family: "微软雅黑","黑体","宋体"，Arial;
 }
 a:link,
 a:visited {
@@ -134,4 +135,10 @@ p {
   top: 0px;
   width: 230px;
   background-color: #eee;
+}
+
+#organizers div {
+  margin: 0 auto;
+  width: 180px;
+  text-align: center;
 }
