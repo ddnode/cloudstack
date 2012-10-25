@@ -124,6 +124,9 @@ td {
 p {
   text-indent: 2em;
 }
+.en p {
+  text-indent: 0;
+}
 
 .highlight {
   color: #571819;
@@ -141,4 +144,5 @@ p {
   margin: 0 auto;
   width: 180px;
   text-align: center;
+  line-height: 2em;
 }
